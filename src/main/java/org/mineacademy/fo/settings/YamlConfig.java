@@ -460,7 +460,7 @@ public class YamlConfig extends FileConfig {
 		}
 
 		public YamlConstructor() {
-			super();
+			super(new LoaderOptions());
 
 			this.yamlConstructors.put(Tag.MAP, new ConstructCustomObject());
 		}
@@ -510,7 +510,7 @@ public class YamlConfig extends FileConfig {
 		}
 
 		public YamlRepresenter() {
-			super();
+			super(new DumperOptions());
 
 			this.multiRepresenters.put(ConfigurationSerializable.class, new RepresentConfigurationSerializable());
 			this.multiRepresenters.put(ConfigSection.class, new RepresentConfigurationSection());
