@@ -55,7 +55,7 @@
 			<groupId>org.yaml</groupId>
 			<artifactId>snakeyaml</artifactId>
 			<!-- DO NOT CHANGE VERSION - breaks 1.8.8 -->
-			<version>1.33</version>
+			<version>2.2</version>
 		</dependency>
 
 		<!-- The core Spigot-API -->
